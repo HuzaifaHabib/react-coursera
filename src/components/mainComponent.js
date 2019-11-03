@@ -3,6 +3,8 @@ import Menu from './homeComponenet'
 import { DISHES } from '../shared/dishes';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink,  UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import DishDetail from './dishDetailComponenet'
+import Header from './headerComponent'
+import Footer from './footerComponent'
 
 
 class Main extends Component {
@@ -21,11 +23,10 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Navbar dark color="primary" className="nav-bar">
-          <NavbarBrand >Ristorante Con Fusion </NavbarBrand>
-        </Navbar>
+        <Header />
         <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
         <DishDetail selectedDish={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]}/>
+        <Footer />
       </div>
     );
   }
