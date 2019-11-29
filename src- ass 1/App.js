@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar className="nav-bar">
-          <NavbarBrand >TechnoFood</NavbarBrand>
+          <NavbarBrand >Ristorante Confusion</NavbarBrand>
         </Navbar>
         <Menu dishes={this.state.dishes} />
       </div>
