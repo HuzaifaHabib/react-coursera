@@ -21,7 +21,7 @@ const Menu = (props) => {
 
     const menu = props.dishes.map((dish) => {
         return (
-            <RenderMenuItem dish={dish} />
+            <RenderMenuItem dish={dish} key={dish.id} />
         );
     }
     );
