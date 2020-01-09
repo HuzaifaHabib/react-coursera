@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button, Modal, ModalBody, ModalHeader, Input, Form, Label } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
-import { thisExpression } from '@babel/types';
 import FormGroup from 'reactstrap/lib/FormGroup';
 
 class Header extends Component {
