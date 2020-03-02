@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, Row, Breadcrumb, BreadcrumbItem } from '../../node_modules/reactstrap';
 import { Link } from 'react-router-dom'
 import Loading  from './loadingComponent'
+import {baseUrl} from '../shared/baseurl'
 
 
 function RenderMenuItem({ dish }) {
@@ -9,7 +10,7 @@ function RenderMenuItem({ dish }) {
         <div key={dish.id} className="col-12 col-md-5 mt-1">
             <Card>
                 <Link to={`/menu/${dish.id}`} >
-                    <CardImg src={dish.image}></CardImg>
+                    <CardImg src={baseUrl + dish.image}></CardImg>
                     <CardImgOverlay>
                         <CardTitle>{dish.name}</CardTitle>
                     </CardImgOverlay>
@@ -41,7 +42,7 @@ const Menu = (props) => {
         return (
             <div className="container">
                 <div className="row">
-                    <h4>{props.dishs.errmess}</h4>
+                    <h4>{props.dishes.errmess}</h4>
                 </div>
             </div>
         )
