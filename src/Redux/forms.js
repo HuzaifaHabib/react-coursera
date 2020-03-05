@@ -2,7 +2,7 @@
 
 
 export const InitialFeedback = {
-    firstane: "",
+    firstname: "",
     lastname: "",
     telnum: "",
     email: "",
