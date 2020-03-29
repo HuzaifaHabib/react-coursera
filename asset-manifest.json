@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-coursera/static/css/main.37cffc5e.chunk.css",
+    "main.js": "/react-coursera/static/js/main.87a70db2.chunk.js",
+    "main.js.map": "/react-coursera/static/js/main.87a70db2.chunk.js.map",
+    "runtime~main.js": "/react-coursera/static/js/runtime~main.d5497d76.js",
+    "runtime~main.js.map": "/react-coursera/static/js/runtime~main.d5497d76.js.map",
+    "static/css/2.f391ba32.chunk.css": "/react-coursera/static/css/2.f391ba32.chunk.css",
+    "static/js/2.409b9564.chunk.js": "/react-coursera/static/js/2.409b9564.chunk.js",
+    "static/js/2.409b9564.chunk.js.map": "/react-coursera/static/js/2.409b9564.chunk.js.map",
+    "index.html": "/react-coursera/index.html",
+    "precache-manifest.b04d2fd52ef5c5691bbe9d7230adea37.js": "/react-coursera/precache-manifest.b04d2fd52ef5c5691bbe9d7230adea37.js",
+    "service-worker.js": "/react-coursera/service-worker.js",
+    "static/css/2.f391ba32.chunk.css.map": "/react-coursera/static/css/2.f391ba32.chunk.css.map",
+    "static/css/main.37cffc5e.chunk.css.map": "/react-coursera/static/css/main.37cffc5e.chunk.css.map",
+    "static/media/font-awesome.css": "/react-coursera/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
