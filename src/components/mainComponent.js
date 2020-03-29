@@ -6,7 +6,6 @@ import Header from './headerComponent'
 import Footer from './footerComponent'
 import Contact from './contactComponent'
 import About from "./aboutComponent"
-import Hero from './heroComponent'
 import { Switch, Route, Redirect, withRouter } from "react-router-dom"
 import {connect} from 'react-redux'
 import {postFeedback,postComments, fetchDishes, fetchComments, fetchPromos, fetchLeaders} from '../Redux/ActionCreators';
@@ -34,11 +33,6 @@ const mapStateToProps = state => {
 }
 
 class Main extends Component {
-
-  constructor(props) {
-    super(props)
-
-  }
 
   componentDidMount() {
     this.props.fetchDishes();
