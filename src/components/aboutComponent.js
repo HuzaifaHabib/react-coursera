@@ -3,6 +3,7 @@ import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'r
 import { Link } from 'react-router-dom';
 import Loading from './loadingComponent'
 import {Fade, Stagger } from 'react-animation-components'
+import { baseUrl } from '../shared/baseurl'
 
 
 
@@ -13,7 +14,7 @@ function RenderLeader({ leader }) {
                 <div key={leader.id} className="col-12 mt-5">
                     <Media tag="li">
                         <Media left middle>
-                            <Media object src={leader.image} alt={leader.name} />
+                            <Media object src={baseUrl+leader.image} alt={leader.name} />
                         </Media>
                         <Media body className="ml-5">
                             <Media heading>{leader.name}</Media>
